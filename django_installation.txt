@@ -4,3 +4,9 @@ dj\Scripts\Activate.ps1
 django-admin startproject mysite #it will open folder auto
 python .\manage.py runserver
 python manage.py startapp main # it will open new folder to help
+#python  manage.py migrate -> to connect db
+
+#After writing model
+python manage.py makemigrations main
+python manage.py migrate
+python manage.py shell
