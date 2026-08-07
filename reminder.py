@@ -6,3 +6,6 @@
 # t.item_set.all() #This returns all belonging datas
 # t.item_set.create(text="Go to the mall", complete=False) #this will create relational data
 # t.item_set.get(id=1) #get the first relation data
+# t = ToDoList.objects
+# t.all()
+# t.filter(name__startswith="Ik")

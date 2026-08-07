@@ -10,3 +10,5 @@ python manage.py startapp main # it will open new folder to help
 python manage.py makemigrations main
 python manage.py migrate
 python manage.py shell
+
+2/11
