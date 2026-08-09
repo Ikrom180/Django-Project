@@ -1,0 +1,35 @@
+# Virtual Environment
+venv/
+.venv/
+dj/
+env/
+myenv/
+new_venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Database files (if using SQLite)
+db.sqlite3
+*.sqlite3
+
+# Environment variables
+.env
+.env.local
+
+# IDE settings
+.vscode/
+.idea/
+*.iml
+
+# Mac system files
+.DS_Store
+
+# Logs
+*.log
+
+# Migration files (optional - some teams commit these)
+# */migrations/*
+# !*/migrations/__init__.py
