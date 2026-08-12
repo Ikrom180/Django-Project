@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 *.so
 .Python
+dj
 
 # Virtual Environment
 venv/
@@ -19,7 +20,7 @@ venv.bak/
 *.pyc
 *.pyo
 *.mo
-*.log
+#*.log
 local_settings.py
 db.sqlite3
 db.sqlite3-journal

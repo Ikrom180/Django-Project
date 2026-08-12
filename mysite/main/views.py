@@ -6,12 +6,12 @@ from .models import ToDoList, Item
 # def index(response, id):
 #     return HttpResponse("<h1>%d<h1>" % id)
 
-def index(response, name): #We make it dynamically
-    ls = ToDoList.objects.get(name=name)
-    item = ls.item_set.get(id=1)
-    return HttpResponse("<h1>%s<h1><br><br><p>%s</p>" %(ls.name, str(item.text)))
+def index(response, id): #We make it dynamically
+    ls = ToDoList.objects.get(id=id)
+    return render(response, "main/base.html", {"name": ls.name})
 
-
+def home(response):
+    return render(response, "main/home.html", {"name": "Home"})
 
 
 
