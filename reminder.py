@@ -9,3 +9,6 @@
 # t = ToDoList.objects
 # t.all()
 # t.filter(name__startswith="Ik")
+# ls = ToDoList.objects.get(id=3) get the given id to ls variable
+# t.item_set.all() #Show all belonging given id
+# ls.item_set.create(text="Not Showing", complete=True  # create belonging
